@@ -37,7 +37,11 @@ uses unitEstoque;
 
 procedure TForm1.btnConfigEstoqueClick(Sender: TObject);
 begin
-  Application.CreateForm(TForm2,Form2);
+  //Se o Form2 não estiver já sido criado, ele irá criar
+  if not Assigned(Form2) then
+    begin
+      Application.CreateForm(TForm2,Form2);
+    end;
 end;
 
 end.

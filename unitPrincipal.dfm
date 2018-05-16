@@ -1,7 +1,7 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = 'Controle de Estoque'
   ClientHeight = 400
   ClientWidth = 698
   Color = clBtnFace
